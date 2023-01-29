@@ -1,0 +1,167 @@
+header {
+	
+	background-image: transparent;
+	background-repeat: no-repeat;
+	background-image: 	url(user.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 58% 58%;
+	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+
+}
+h2 {
+	color: blue;
+}
+.image {
+	width: 	400px;
+	text-align: center;
+}
+body {
+	font-family: raleway, sans-serif;
+	overflow overflow-y: scroll;
+	overflow-x: hidden;
+	
+}
+.pix {
+	text-align: center;
+	width: ;
+
+}
+
+
+.logo {
+	padding-bottom: 50px;
+	text-align: center;
+}
+.header-image {
+	width: 50px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	text-align: center;
+}
+.left-column {
+	float: left;
+	width: 50%;
+	margin-left: 10px;
+	
+}
+.right-column {
+	width: ;
+	float: ;
+}
+.single-column {
+	text-align: center;
+}
+
+  }
+ @media (max-width: 760px) {
+ 	.left-column {
+ 		float: none;
+ 	}
+ }
+
+.singleleft-row::after {
+	clear: both;
+	display: table;
+}
+p {
+	font-size: 14px;
+}
+.header-overlay {
+	background-color: rgba(31, 31, 31, 0.75);
+}
+.header-text h1 {
+	color: #fff;
+	font-size: 35px;
+	font-weight: 360;
+	line-height: 45px;
+	padding-top: 38px;
+	text-transform: uppercase;
+}
+.header-text p {
+	color: #fff;
+	font-size: 17px;
+	line-height: 28px;
+	font-weight: 380;
+}
+.header-btns {
+	margin-top: 90px;
+	margin-bottom: 50px;
+}
+
+
+.btn-download,
+.btn-download:focus,
+.btn-download:active,
+.btn-download:visited
+{
+	background: transparent;
+	border-color: #129cf3;
+	padding-top: 18px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 19px;
+	text-transform: uppercase;
+	border-radius: 3px;
+	transition: all 1s;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	text-decoration: none;
+
+}
+.btn-download:hover {
+	background-color: darkblue;
+	color: #fff;
+}
+.btn-tour,
+.btn-tour:focus,
+.btn-tour:active,
+.btn-tour:visited {
+	color: #a9adb0;
+	margin-left: 28px;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight: 580;
+	background: transparent;
+	transition: all 1s;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+	-moz-transition: all 1s;
+	text-decoration: none;
+}
+.btn-tour:hover {
+
+	color: brown;
+}
+.btn-tour i {
+	font-size: 20px;
+	padding-left: 5px;
+	color: #129cf3;
+	font-weight: 580;
+}
+
+
+/*testimonial */
+
+.testimonial {
+	color: #727272;
+	font-size: 15px;
+}
+/*about me */
+.imade {
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	padding-left: 70px;
+	padding-right: 70px;
+
+
+}
+.about-me {
+	background-color: black;
+}
